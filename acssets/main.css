@@ -1,0 +1,32 @@
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    max-width: 1024px;
+    margin: auto;
+}
+
+.section{
+    display: flex;
+    align-items: baseline;
+}
+
+.member{
+    align-items: flex-start;
+}
+
+.member-photo{
+    width: 350px;
+    border-radius: 3%;
+}
+
+.photo{
+    margin-right: 20px;
+}
+
+.section{
+    margin-bottom: 20px;
+}
+
+.section-title{
+    min-width: 200px;
+}

@@ -1,7 +1,7 @@
 .wrapper{
     display: flex;
     flex-direction: column;
-    max-width: 1024px;
+    max-width: 800px;
     margin: auto;
 }
 
@@ -24,9 +24,20 @@
 }
 
 .section{
+    padding-bottom: 30px;
     margin-bottom: 20px;
+    border-bottom: 1px solid #ccc9;
+}
+
+.section:last-child {
+    margin: 0;
+    border: none;
 }
 
 .section-title{
     min-width: 200px;
+}
+
+.list {
+    padding-left: 15px;
 }

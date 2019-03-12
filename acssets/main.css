@@ -1,0 +1,44 @@
+.main{
+    display: flex;
+    flex-direction: column;
+    max-width: 800px;
+    margin: auto;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.section{
+    display: flex;
+    align-items: baseline;
+}
+
+.member{
+    align-items: flex-start;
+}
+
+.member-photo{
+    width: 350px;
+    border-radius: 3%;
+}
+
+.photo{
+    margin-right: 20px;
+}
+
+.section{
+    padding-bottom: 30px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #ccc9;
+}
+
+.section:last-child {
+    margin: 0;
+    border: none;
+}
+
+.section-title{
+    min-width: 200px;
+}
+
+.list {
+    padding-left: 15px;
+}
